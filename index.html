@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		NeelamCafe
+	</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav class = "row clearfix">
+			<img src="Images/food5.png" class="logo">
+			<ul class="main-nav animated slideInDown" id = "check-class" >
+				<li><a href="#">RANGE</a></li>
+				<li><a href="#">MENU</a></li>
+				<li><a href="#">REVIEWS</a></li>
+				
+				<li><a href="#">SIGN UP</a></li>
+			</ul>
+			<a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+		</nav>
+		<div class = "main-content-header">
+		<h1>YOU ARE WHAT YOU EAT.<br /> SO EAT SOMETHING <span class="colorchange">SWEET</span>. </h1>
+		<a href ="#" class="btn1" >ORDER NOW</a>
+		<a href ="#" class="btn1" >SHOW ME MORE</a>
+	</div>
+	</header>
+	<script type="text/javascript">
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if(x.style.display ==="none")
+				x.style.display="block";
+			else{
+				x.style.display="none";
+			}
+		}
+	</script>
+</body>
+</html>
